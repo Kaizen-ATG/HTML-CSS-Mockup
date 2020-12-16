@@ -8400,7 +8400,7 @@ li.show .dropdown-menu {
     line-height: 44px; }
   .GreenVibe-banner .btn {
     min-width: 203px;
-    font-size: 24px;
+    font-size: 16px;
     padding: 16px 20px;
     margin: 0 8px;
     font-weight: 600; }
@@ -9949,5 +9949,184 @@ footer {
 
   .btn {
     min-width: inherit; } }
+
+
+    /* User Profiles  */
+
+    .p-4 {
+      padding: 1.5rem!important;
+  }
+  .mb-0, .my-0 {
+      margin-bottom: 0!important;
+  }
+  .shadow-sm {
+      box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  }    
+  }
+  /* user-dashboard-info-box */
+  .user-dashboard-info-box .players-list .thumb {
+      margin-right: 20px;
+  }
+  
+  .user-dashboard-info-box .players-list .thumb img {
+      width: 64px;
+      height: 64px;
+      -o-object-fit: cover;
+      object-fit: cover;
+      overflow: hidden;
+      border-radius: 50%;
+  }
+  
+  .user-dashboard-info-box .title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 30px 0;
+  }
+  
+  .user-dashboard-info-box .players-list td {
+      vertical-align: middle;
+  }
+  
+  .user-dashboard-info-box td li {
+      margin: 0 4px;
+  }
+  
+  .user-dashboard-info-box .table thead th {
+      border-bottom: none;
+  }
+  
+  .table.manage-players-top th {
+      border: 0;
+  }
+  
+  .user-dashboard-info-box .player-list-favourite-time .player-list-favourite {
+      margin-bottom: 10px;
+  }
+  
+  .table.manage-players-top {
+      min-width: 650px;
+  }
+  
+  .user-dashboard-info-box .player-list-details ul {
+      color: #969696;
+  }
+  
+  /* player List */
+  .player-list {
+      background: #ffffff;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      border-bottom: 1px solid #eeeeee;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 20px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+  .player-list:hover {
+      -webkit-box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+      box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+      position: relative;
+      z-index: 99;
+  }
+  .player-list:hover a.player-list-favourite {
+      color: #e74c3c;
+      -webkit-box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
+      box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
+  }
+  
+  .player-list .player-list-image {
+      margin-right: 25px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 80px;
+      flex: 0 0 80px;
+      border: none;
+  }
+  .player-list .player-list-image img {
+      width: 80px;
+      height: 80px;
+      -o-object-fit: cover;
+      object-fit: cover;
+  }
+  
+  .player-list-title {
+      margin-bottom: 5px;
+  }
+  
+  .player-list-details ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-bottom: 0px;
+  }
+  .player-list-details ul li {
+      margin: 5px 24px 5px 0px;
+      font-size: 13px;
+  }
+  
+  .player-list .player-list-favourite-time {
+      margin-left: auto;
+      text-align: center;
+      font-size: 13px;
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 90px;
+      flex: 0 0 90px;
+  }
+  .player-list .player-list-favourite-time span {
+      display: block;
+      margin: 0 auto;
+  }
+  .player-list .player-list-favourite-time .player-list-favourite {
+      display: inline-block;
+      position: relative;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      border: 1px solid #eeeeee;
+      border-radius: 100%;
+      text-align: center;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #646f79;
+  }
+  .player-list .player-list-favourite-time .player-list-favourite:hover {
+      background: #ffffff;
+      color: #e74c3c;
+  }
+  
+  .player-banner .player-list:hover {
+      position: inherit;
+      -webkit-box-shadow: inherit;
+      box-shadow: inherit;
+      z-index: inherit;
+  }
+  
+  .bg-white {
+      background-color: #ffffff !important;
+  }
+  .p-4 {
+      padding: 1.5rem!important;
+  }
+  .mb-0, .my-0 {
+      margin-bottom: 0!important;
+  }
+  .shadow-sm {
+      box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  }
+  
+  .user-dashboard-info-box .players-list .thumb {
+      margin-right: 20px;
+  }
+
 
 /*# sourceMappingURL=styles.css.map */
