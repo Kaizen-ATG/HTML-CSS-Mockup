@@ -8965,6 +8965,48 @@ form button {
   height: 145px;
   resize: none; }
 
+  /* GreenVibe Application Form */
+.GreenVibe-app-form .container {
+  padding-top: 50px;
+  padding-bottom: 120px; }
+.GreenVibe-app-form h2, .GreenVibe-app-form .h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 400; }
+.GreenVibe-app-form p {
+  padding-bottom: 5px; }
+  .GreenVibe-app-form p a {
+    color: #12C35A;
+    font-weight: 500;
+    letter-spacing: -0.2px; }
+.GreenVibe-app-form .GreenVibe-image-wrap {
+  margin: 40px 0 50px; }
+.GreenVibe-app-form form {
+  padding: 30px 50px 20px; }
+  .GreenVibe-app-form form .form-control {
+    background: #F8F8F8; }
+  .GreenVibe-app-form form ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #000;
+    opacity: 1; }
+  .GreenVibe-app-form form ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000;
+    opacity: 1; }
+  .GreenVibe-app-form form :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000;
+    opacity: 1; }
+  .GreenVibe-app-form form :-moz-placeholder {
+    /* Firefox 18- */
+    color: #000;
+    opacity: 1; }
+.GreenVibe-app-form .form-group {
+  margin-bottom: 25px; }
+.GreenVibe-app-form textarea {
+  height: 145px;
+  resize: none; }
+
 .custom-control-label {
   padding-left: 15px;
   padding-top: 5px; }
@@ -9018,11 +9060,24 @@ form button {
   margin-top: 20px;
   padding: 13px 20px; }
 
+  .GreenVibe-app-form form .btn {
+    position: static;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 20px;
+    padding: 13px 20px; }
+
 .custom-checkbox {
   margin-top: 35px; }
 
 .GreenVibe-contact-us form .btn:hover, .GreenVibe-contact-us form .btn:focus {
   background: #12C35A; }
+
+  .GreenVibe-app-form form .btn:hover, .GreenVibe-app-form form .btn:focus {
+    background: #12C35A; }
 
 /* GreenVibe Footer */
 footer {
@@ -9229,13 +9284,16 @@ footer {
     -ms-flex: 0 0 33.333%;
     flex: 0 0 33.333%;
     max-width: 33.333%; }
+
   .integrations-block form button {
-    position: absolute;
-    width: auto;
-    background: none;
-    margin-top: 0;
-    height: auto;
-    padding: 6px 0; }
+      position: static;
+      background: #000;
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+      width: 100%;
+      margin-top: 20px;
+      padding: 13px 20px; }
     .integrations-block form button img {
       display: block; }
 
@@ -9332,6 +9390,9 @@ footer {
 
   .GreenVibe-contact-us .container {
     padding: 80px 40px; }
+
+    .GreenVibe-app-form .container {
+      padding: 80px 40px; }
 
   .GreenVibe-join-maillist {
     padding: 0 0 80px; }
@@ -9545,15 +9606,19 @@ footer {
   .GreenVibe-contact-us {
     margin-top: -50px; }
 
+
   .GreenVibe-simple-pricing .row .col-lg-6:last-child .bordered-box {
     margin: 30px 0; }
 
   .GreenVibe-contact-us form {
     margin-top: 30px; }
 
+    .GreenVibe-app-form form {
+      margin-top: 30px; }
+
   .nav-tabs {
     margin-right: -30px;
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
     overflow-y: visible;
     display: block;
     white-space: nowrap;
@@ -9757,6 +9822,26 @@ footer {
     .GreenVibe-contact-us form textarea.form-control {
       height: 100px; }
 
+
+      .GreenVibe-app-form h2, .GreenVibe-app-form .h2 {
+        font-size: 28px;
+        line-height: 40px; }
+      .GreenVibe-app-form .container {
+        padding: 0 40px;
+        border: none; }
+
+      .GreenVibe-app-form form {
+        padding: 30px 30px 20px; }
+        .GreenVibe-app-form form .btn {
+          height: auto;
+          padding: 9px 20px;
+          font-size: 16px; }
+        .GreenVibe-app-form form .form-control {
+          font-size: 14px;
+          height: 70px; }
+        .GreenVibe-app-form form textarea.form-control {
+          height: 100px; }
+
   .inner-banner .GreenVibe-align-wrap span a {
     display: inline-block;
     font-size: 14px;
@@ -9895,6 +9980,9 @@ footer {
 
   .GreenVibe-contact-us .form-group {
     margin-bottom: 15px; }
+
+    .GreenVibe-app-form .form-group {
+      margin-bottom: 15px; }
 
   .integrations-block .academy-box img {
     width: 60px;
