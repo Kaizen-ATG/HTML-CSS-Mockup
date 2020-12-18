@@ -2286,7 +2286,7 @@ progress {
   box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25); }
 
 .btn {
-  display: inline-block;
+  /*display: inline-block;*/
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -8967,6 +8967,7 @@ form button {
 
   /* GreenVibe Application Form */
 .GreenVibe-app-form .container {
+  margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 120px; }
 .GreenVibe-app-form h2, .GreenVibe-app-form .h2 {
@@ -9062,7 +9063,6 @@ form button {
 
   .GreenVibe-app-form form .btn {
     position: static;
-    background: #000;
     color: #fff;
     font-size: 24px;
     font-weight: 600;
@@ -9981,9 +9981,7 @@ footer {
   .GreenVibe-contact-us .form-group {
     margin-bottom: 15px; }
 
-    .GreenVibe-app-form .form-group {
-      margin-bottom: 15px; }
-
+   
   .integrations-block .academy-box img {
     width: 60px;
     height: 60px;
